@@ -148,10 +148,8 @@ main {
     background-color: red;
 }
 
-.btn-custom :hover{
-    background-color: aqua;
-}
-.texto_banner button :hover{
+
+.texto_banner button:hover{
     background-color: black;
 }
 
