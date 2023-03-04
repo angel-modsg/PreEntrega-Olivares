@@ -189,6 +189,9 @@ main h1 {
     border-radius: 8px;
 }
 
+
+//MEDIAQUERIES
+
 @media (max-width:576px){
    
     #bannerPrincipal {

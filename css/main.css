@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+h1, h2, h3, p, li, a {
+  font-family: "Roboto"; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    }
+
+.lista_footer {
+  list-style: none;
+  font-weight: bold; 
+}
+
+.footer__logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgray;
+  padding: 10px; 
+}
+
+.footer__logo img {
+  width: 150px; 
+}
+
+.footer__custom {
+  width: 100%; 
+}

@@ -1,0 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+$all-typography: 'Roboto';
+h1, h2, h3, p, li, a {
+    font-family: $all-typography;
+}
