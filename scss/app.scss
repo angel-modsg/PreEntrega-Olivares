@@ -4,7 +4,12 @@
 @import "./reset/reset.scss";
 
 //Layout
-@import "./layout/footer.scss"
-
+@import "./layout/footer.scss";
+@import "./layout/header.scss";
 
 //Pages
+@import "./pages/index.scss";
+@import "./pages/nosotros.scss";
+@import "./pages/eventos.scss";
+@import "./pages/contacto.scss";
+@import "./pages/promociones.scss";

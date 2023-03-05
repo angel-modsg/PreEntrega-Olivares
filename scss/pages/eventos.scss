@@ -1,0 +1,31 @@
+.practica__grid {
+    display: grid;
+    grid-template-columns: 500px, 500px;
+    grid-column-gap: 10px;
+    grid-template-areas:
+    "evento servicio"
+    ;
+}
+ .evento__grid {
+    grid-area: evento;
+ }
+ .servicio__grid {
+    grid-area: servicio;
+ }
+.practica__grid img{
+    width: 100%
+    ;
+}
+
+@media (max-width:576px){
+
+    .practica__grid {
+    
+        grid-template-areas:
+        "evento" 
+        "servicio"
+        ;
+    }
+
+
+}
