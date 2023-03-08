@@ -1,10 +1,13 @@
-.nosotros {
+.txt__nosotros {
     display: flex;
-    flex-direction: row;}
-    .txt__nosotros {
-        justify-content: center;
+    flex-direction: column;
+}
+.txt__nosotros p {
+     align-items: center;
+     padding: 50px;
+}
+
     
-         }
     .img__nosotros img{
          width: 100%;
         

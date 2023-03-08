@@ -178,12 +178,13 @@ footer .footer__custom {
   width: 100%;
   margin: 0px; }
 
-.nosotros {
-  display: flex;
-  flex-direction: row; }
-
 .txt__nosotros {
-  justify-content: center; }
+  display: flex;
+  flex-direction: column; }
+
+.txt__nosotros p {
+  align-items: center;
+  padding: 50px; }
 
 .img__nosotros img {
   width: 100%; }
