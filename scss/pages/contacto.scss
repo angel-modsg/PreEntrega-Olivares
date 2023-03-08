@@ -1,27 +1,60 @@
-.formulario {
-    background-color: red;
-    border-radius: 12px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    align-items: center;
-    text-align: center;
 
-}
-.formulario-datos input {
-    margin: 5px;
-    padding: 15px;
-    border-radius: 8px;
+main {
+    .formulario {
+        background-color: $secundary-color;
+        border-radius: 12px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        align-items: center;
+        text-align: center;
     
-}
-.estilo_formulario {
-    display: flex;
-    justify-content: center;
-    margin: 30px;
-}
-.formulario-datos textarea {
-    margin: 5px;
-    padding: 15px;
-    border-radius: 8px;
+    }
+    h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .formulario-datos input {
+        margin: 5px;
+        padding: 15px;
+        border-radius: 8px;
+        
+    }
+    .estilo_formulario {
+        display: flex;
+        justify-content: center;
+        margin: 30px;
+    }
+    .formulario-datos textarea {
+        margin: 5px;
+        padding: 15px;
+        border-radius: 8px;
+    }
+    .seguinos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    button {
+        margin: 20px;
+        padding: 15px;
+    }
+   .btn__facebook {
+    color: white;
+    border: none;
+    background-color: map-get($paleta, facebook);
+   }
+   .btn__instagram {
+    border:none;
+    background-color: map-get($paleta, instagram);
+   }
+   .btn__youtube {
+    border: none;
+    background-color: map-get($paleta, youtube);
+   }
+    
 }
